@@ -1,8 +1,0 @@
-{
-    "compilerOptions": {
-        "target": "ES5",
-        "watch": true,
-        "lib": ["dom", "es2017"],
-        "outDir": "./assets/js"
-    },
-}
