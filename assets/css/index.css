@@ -36,19 +36,29 @@ body {
 .wrapper:hover {
     cursor: pointer;}
 
-.wrapper h2 {
+.wrapperText {
+    user-select: none;
     font-size: 70px;
 }
 
 .chocolate {
     display: none;
+    justify-content: center;
+    align-items: center;
     background-color: #2e1d14;
     width: 600px;
     height: 200px;
 }
 
+.chocolateText {
+    user-select: none;
+    color: #180f0b;
+}
+
 .openText {
+    user-select: none;
     margin-top: 30px;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -58,4 +68,21 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 50%;
+}
+
+.resetButton {
+    display: none;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .openText {
+        margin-top: 25%;
+    }
 }
