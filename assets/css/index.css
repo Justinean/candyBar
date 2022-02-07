@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: gray;
+}
+
+.biteContainer {
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.biteContainer:hover {
+    cursor: pointer;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 600px;
+    height: 200px;
+    color: white;
+}
+
+.wrapper:hover {
+    cursor: pointer;}
+
+.wrapper h2 {
+    font-size: 70px;
+}
+
+.chocolate {
+    display: none;
+    background-color: #2e1d14;
+    width: 600px;
+    height: 200px;
+}
+
+.openText {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.bite {
+    position: absolute;
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
