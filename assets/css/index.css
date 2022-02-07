@@ -52,11 +52,15 @@ body {
 
 .chocolateText {
     user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
     color: #180f0b;
 }
 
 .openText {
     user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
     margin-top: 30px;
     font-size: 30px;
     text-align: center;
